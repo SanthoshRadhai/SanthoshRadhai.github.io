@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script>
     try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
@@ -103,7 +103,7 @@
         <li class="work reveal">
           <a href="https://herito3-d-bott-e.vercel.app" target="_blank" rel="noopener">
             <div class="work-main">
-              <h3>Herito Wellness</h3>
+              <h3>Herito Wellness <span class="badge badge-quiet">Freelance</span></h3>
               <p>Product website for a functional-beverage brand, with an interactive 3D bottle showcase.</p>
               <ul class="tags"><li>React</li><li>JavaScript</li><li>3D</li></ul>
             </div>
@@ -237,17 +237,41 @@
           <h3 class="col-title" style="margin-top:2rem">Languages</h3>
           <p>Tamil, English</p>
         </div>
-
-        <div class="reveal skills">
-          <h3 class="col-title">Skills</h3>
-          <dl>
-            <dt>Languages</dt><dd>Python, C, Java, JavaScript, TypeScript, C++</dd>
-            <dt>AI / ML</dt><dd>PyTorch, TensorFlow, Generative AI, LLMs, LangChain, LangGraph, RAG, Ollama, Pandas</dd>
-            <dt>Security</dt><dd>Penetration testing, Hashcat, Cryptanalysis, YARA, VirusTotal, MITRE ATT&amp;CK, OWASP</dd>
-            <dt>Web</dt><dd>React, Vite, Express.js, Flask, FastAPI</dd>
-            <dt>Tools</dt><dd>Git, Linux, Docker, Kubernetes, Jenkins, Terraform, Blender, Unity, Arduino</dd>
-          </dl>
+      </div>
+      <div class="skills-block">
+        <h3 class="col-title reveal">Skills</h3>
+        <div class="skill-grid">
+          <div class="skill reveal">
+            <h4>Security testing</h4>
+            <p>Carried out a VAPT for Kongu Engineering College and took part in the BOSS OS bug bounty challenge at CDAC, Bengaluru. Hands-on pentesting practice through TryHackMe.</p>
+          </div>
+          <div class="skill reveal">
+            <h4>AI and LLM security</h4>
+            <p>Final-year research on small open-weight language models for security tasks — tool calling, jailbreaking and refusal behaviour. Completed Coursera coursework on retrieval-augmented generation (RAG).</p>
+            <p class="skill-tools">PyTorch · LangChain · LangGraph · RAG · Ollama · llama.cpp</p>
+          </div>
+          <div class="skill reveal">
+            <h4>Machine learning</h4>
+            <p>Built classifiers that identify cryptographic algorithms (TorpedoX, SIH '24 winner) and ML models for password analysis.</p>
+            <p class="skill-tools">Python · PyTorch · TensorFlow · Pandas</p>
+          </div>
+          <div class="skill reveal">
+            <h4>Web development</h4>
+            <p>Build and ship production websites, including freelance work for Herito Wellness, with 3D product animation made in Blender.</p>
+            <p class="skill-tools">React · Vite · Express.js · Flask · FastAPI · Blender</p>
+          </div>
+          <div class="skill reveal">
+            <h4>Embedded and IoT</h4>
+            <p>Built projects with NodeMCU, ESP32 and Arduino, and attended hands-on embedded-systems workshops.</p>
+            <p class="skill-tools">ESP32 · NodeMCU · Arduino · C</p>
+          </div>
+          <div class="skill reveal">
+            <h4>Game development</h4>
+            <p>Made simple games in Unity.</p>
+            <p class="skill-tools">Unity · C#</p>
+          </div>
         </div>
+        <p class="skill-foot reveal"><span>Languages</span> Python, C, Java, JavaScript, C++ <span>Tools</span> Git, Linux, Docker, Kubernetes</p>
       </div>
     </section>
 
