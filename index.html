@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
   <script>
     try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
@@ -145,16 +145,11 @@
       <header class="section-head reveal">
         <span class="num">02</span>
         <h2>Writing</h2>
-        <a class="head-link" href="https://blog.santhoshradhai.me" target="_blank" rel="noopener">Visit the blog ↗</a>
       </header>
-      <p class="writing-intro reveal">Notes from my research on large language models, published at <a href="https://blog.santhoshradhai.me" target="_blank" rel="noopener">blog.santhoshradhai.me</a>.</p>
-      <ul class="post-list">
-        <li class="reveal"><a href="https://blog.santhoshradhai.me/llm-s/source/llm-internal-working/" target="_blank" rel="noopener"><span class="post-title">LLM Internal Working</span><span class="post-sub">How a large language model works under the hood</span><span class="arrow">↗</span></a></li>
-        <li class="reveal"><a href="https://blog.santhoshradhai.me/llm-s/source/inferencing-in-llm/" target="_blank" rel="noopener"><span class="post-title">Inferencing in LLM</span><span class="post-sub">What happens when a model generates text</span><span class="arrow">↗</span></a></li>
-        <li class="reveal"><a href="https://blog.santhoshradhai.me/llm-s/source/harness-in-llm/" target="_blank" rel="noopener"><span class="post-title">Harness in LLM</span><span class="post-sub">The tooling and scaffolding around a model</span><span class="arrow">↗</span></a></li>
-        <li class="reveal"><a href="https://blog.santhoshradhai.me/llm-s/source/heretic/" target="_blank" rel="noopener"><span class="post-title">Heretic</span><span class="post-sub">Reducing refusals and what it costs a model</span><span class="arrow">↗</span></a></li>
-        <li class="reveal"><a href="https://blog.santhoshradhai.me/llm-s/source/model-hub/" target="_blank" rel="noopener"><span class="post-title">Model Hub</span><span class="post-sub">Notes on finding and choosing open models</span><span class="arrow">↗</span></a></li>
-      </ul>
+      <div class="writing reveal">
+        <p>I write notes on large language models, AI and security as I research them.</p>
+        <a class="btn" href="https://blog.santhoshradhai.me" target="_blank" rel="noopener">Read the blog ↗</a>
+      </div>
     </section>
 
     <!-- Experience -->
@@ -284,6 +279,6 @@
     <a href="#top">Back to top ↑</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=3"></script>
 </body>
 </html>
